@@ -1,0 +1,15 @@
+body {
+	font-family: Helvetica;
+}
+
+li {
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
+
+.section {
+	margin-bottom: 40px;
+	padding: 0px 10px 0px 10px;
+	width: 100%;
+	min-height: 400px;
+}
