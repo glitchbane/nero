@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Quick Intro To d3js</title>
+
+    <link rel="stylesheet" type="text/css" href="d3jsintro.css" />
+<body>
+    <div id="intro" class="section">
+        <h1>A Quick Intro To d3js</h1>
+        <img src="assets/d3js.png" height="100"/>
+        <ul>
+            <li><a href="http://d3js.org">d3js</a></li>
+            <li>General purpose library for manipulating documents based on data
+                <ul>
+                    <li>Not a charting library, but you can make charts with it</li>
+                    <li>Makes the connection between data and graphics easy</li>
+                </ul>
+            </li>
+            <li>JavaScript, HTML, SVG, Canvas, CSS</li>
+        </ul>
+        <h2>What can you do with d3js</h2>
+        <ul>
+            <li>Examples
+                <ul><a href="http://www.nytimes.com/interactive/2013/10/09/us/yellen-fed-chart.html">Janet L. Yellen, on the Economy’s Twists and Turns</a></ul>
+                <ul><a href="http://www.nytimes.com/interactive/2013/03/29/sports/baseball/Strikeouts-Are-Still-Soaring.html?ref=baseball">Strikeouts on the Rise</a></ul>
+                <ul><a href="http://bost.ocks.org/mike/uberdata/">Uber Rides by Neighborhood</a></ul>
+            </li>
+            <li>Easily bind small/large data sets (JSON, CSV, data format of your choice) to visuals to produce something meaningful</li>
+            <li>Create custom, rich, interactive and expressive graphs with drilldowns</li>
+        </ul>
+        <h2>Pros</h2>
+        <ul>
+            <li>Open-source library (BSD license) with active development</li>
+            <li>Extensible (frameworks built on top of D3.js)</li>
+            <li>Build a custom visual experience for your data</li>
+            <li>Generating visuals client-side (scalable solution for large data sets) or server-side (reduce page load, better performance)</li>
+            <li>Can handle a lot of crazy math stuff
+                <ul>
+                    <li><a href="https://github.com/mbostock/d3/wiki/Gallery">projections, treemaps, voronoi, quadtree, hull</a></li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Cons</h2>
+        <ul>
+            <li>Requires a very good understanding of JavaScript</li>
+            <li>Manipulation of every single element in the visuals
+                <ul>
+                    <li>DOM manipulation is expensive for large numbers of elements</li>
+                </ul>
+            </li>
+            <li>Doesn't have pre-built charts but there are libraries and wrappers:
+                <ul>
+                    <li><a href="http://c3js.org/">c3js</a></li>
+                    <li><a href="http://nvd3.org/">nvd3</a></li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Tutorials & Examples</h2>
+        <ul>
+            <li><a href="http://bost.ocks.org/mike/bar/">Mike Bostock's Bar Chart Tutorial</a></li>
+            <li><a href="http://bl.ocks.org/mbostock/3883245">Mike Bostock's Line Chart</a></li>
+            <li><a href="demo/c3js/c3demo.html">C3 Line Chart</a></li>
+            <li><a href="demo/nvd3/nvd3demo.html">NVD3 Line Chart</a></li>
+        </ul>
+    </div>
+</body>
