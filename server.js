@@ -18,15 +18,20 @@ app.get('/tasks/:team/:sprint', function(req, res) {
     JiraData.getTasks(req.params.team,
         req.params.sprint,
         function(data) {
-            console.log(data);
             res.json(JSON.parse(data));
         });
 });
 
-app.get('/fields', function(req, res) {
-    JiraData.getFields(
+app.get('/teams', function(req, res) {
+    JiraData.getTeams(
         function(data) {
-            console.log(data);
+            res.json(data);
+        });
+});
+
+app.get('/sprints', function(req, res) {
+    JiraData.getSprints(
+        function(data) {
             res.json(data);
         });
 });
