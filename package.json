@@ -16,6 +16,8 @@
   "dependencies": {
     "express": "^4.13.0",
     "handlebars": "^3.0.3",
-    "request-json": "^0.5.3"
+    "morgan": "^1.6.1",
+    "request-json": "^0.5.3",
+    "underscore": "^1.8.3"
   }
 }

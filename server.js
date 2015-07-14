@@ -1,15 +1,18 @@
 var JiraData = require('./lib/JiraData'),
+    logger = require('morgan'),
     express = require('express');
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 var app = express();
+app.use(logger('dev'));
+
+var portNumber = 4000;
 
 app.get('/', function(req, res) {
     JiraData.getTasks('Alliance',
         'Sprint 77',
         function(data) {
-            console.log(data);
             res.json(JSON.parse(data));
         });
 });
@@ -18,27 +21,24 @@ app.get('/tasks/:team/:sprint', function(req, res) {
     JiraData.getTasks(req.params.team,
         req.params.sprint,
         function(data) {
-            console.log(data);
             res.json(JSON.parse(data));
         });
 });
 
-app.get('/fields', function(req, res) {
-    JiraData.getFields(
+app.get('/teams', function(req, res) {
+    JiraData.getTeams(
         function(data) {
-            console.log(data);
-            res.json(JSON.parse(data));
+            res.json(data);
         });
 });
 
-app.listen(3000, function() {
-    console.log('listening');
+app.get('/sprints', function(req, res) {
+    JiraData.getSprints(
+        function(data) {
+            res.json(data);
+        });
 });
 
-
-
-
-
-
-
-
+app.listen(portNumber, function() {
+    console.log('Listening on http://localhost:' + portNumber);
+});
