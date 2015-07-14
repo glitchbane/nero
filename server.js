@@ -27,11 +27,11 @@ app.get('/fields', function(req, res) {
     JiraData.getFields(
         function(data) {
             console.log(data);
-            res.json(JSON.parse(data));
+            res.json(data);
         });
 });
 
-app.listen(3000, function() {
+app.listen(4000, function() {
     console.log('listening');
 });
 
