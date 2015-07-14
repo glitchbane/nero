@@ -4,12 +4,13 @@ var JiraData = require('./lib/JiraData'),
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 var app = express();
+var portNumber = 4000;
 
 app.get('/', function(req, res) {
     JiraData.getTasks('Alliance',
         'Sprint 77',
         function(data) {
-            console.log(data);
+            // console.log(data);
             res.json(JSON.parse(data));
         });
 });
@@ -36,14 +37,6 @@ app.get('/sprints', function(req, res) {
         });
 });
 
-app.listen(4000, function() {
-    console.log('listening');
+app.listen(portNumber, function() {
+    console.log('Listening on http://localhost:' + portNumber);
 });
-
-
-
-
-
-
-
-
