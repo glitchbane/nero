@@ -1,0 +1,2 @@
+D:\dev\nero\obj\Debug\Nero.njsprojResolveAssemblyReference.cache
+D:\dev\nero\bin\Microsoft.NodejsTools.WebRole.dll
