@@ -7,7 +7,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 var app = express();
 app.use(logger('dev'));
 
-var portNumber = 3000;
+var portNumber = 7000;
 
 app.get('/', function(req, res) {
     JiraData.getTasks('Alliance',
