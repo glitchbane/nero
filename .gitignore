@@ -1,1 +1,7 @@
 /node_modules
+/bin
+/bower_components
+/obj
+.ntvs_analysis.dat
+Nero.njsproj
+/.settings
