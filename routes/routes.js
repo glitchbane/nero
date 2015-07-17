@@ -1,6 +1,4 @@
-var JiraData = require('../lib/JiraData');
-
-var Routes = {};
+var JiraData = require('..getTasks/lib/JiraData');
 
 exports.index = function(req, res) {
     JiraData.getTasks('Alliance',
