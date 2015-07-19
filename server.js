@@ -2,13 +2,12 @@ var logger = require('morgan'),
     express = require('express'),
     routes = require('./routes/routes');
 
-
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
-var app = express();
-app.use(logger('dev'));
+var app = express(),
+    portNumber = process.argv[2] || 7000;
 
-var portNumber = process.argv[2] || 7000;
+app.use(logger('dev'));
 
 app.get('/', routes.index);
 app.get('/tasks/:team/:sprint', routes.tasksTeam);
