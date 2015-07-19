@@ -1,43 +1,20 @@
-var JiraData = require('./lib/JiraData'),
-    logger = require('morgan'),
-    express = require('express');
+var logger = require('morgan'),
+    express = require('express'),
+    routes = require('./routes/routes');
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
-var app = express();
+var app = express(),
+    portNumber = process.argv[2] || 7000;
+
 app.use(logger('dev'));
 
-var portNumber = 4000;
-
-app.get('/', function(req, res) {
-    JiraData.getTasks('Alliance',
-        'Sprint 77',
-        function(data) {
-            res.json(JSON.parse(data));
-        });
-});
-
-app.get('/tasks/:team/:sprint', function(req, res) {
-    JiraData.getTasks(req.params.team,
-        req.params.sprint,
-        function(data) {
-            res.json(JSON.parse(data));
-        });
-});
-
-app.get('/teams', function(req, res) {
-    JiraData.getTeams(
-        function(data) {
-            res.json(data);
-        });
-});
-
-app.get('/sprints', function(req, res) {
-    JiraData.getSprints(
-        function(data) {
-            res.json(data);
-        });
-});
+app.get('/', routes.index);
+app.get('/tasks/:team/:sprint', routes.tasksTeam);
+app.get('/tasks/:sprint', routes.tasksSprint);
+app.get('/teams', routes.teams);
+app.get('/teams/:sprint', routes.teamsSprint);
+app.get('/sprints', routes.sprints);
 
 app.listen(portNumber, function() {
     console.log('Listening on http://localhost:' + portNumber);
