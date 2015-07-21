@@ -8,6 +8,8 @@ var app = express(),
     portNumber = process.argv[2] || 7000;
 
 app.use(logger('dev'));
+//for static files. Anything in the public dir is visible
+app.use(express.static('public'));
 
 app.get('/', routes.index);
 app.get('/tasks/:team/:sprint', routes.tasksTeam);

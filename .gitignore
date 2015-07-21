@@ -1,7 +1,9 @@
 /node_modules
 /bin
 /bower_components
+/public/bower_components
 /obj
 .ntvs_analysis.dat
 Nero.njsproj
 /.settings
+.ntvs_analysis.dat
