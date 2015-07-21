@@ -15,6 +15,10 @@ npm install -g bower
 ```
 bower install
 ```
+* Note, if you are inside the firewall, you may have issues connecting to Bower packages using git. If you encounter an issue, run this command: 
+```
+git config --global url."https://".insteadOf git://
+```
 
 ###Running Site
 1. Once all dependencies have been installed above
