@@ -1,12 +1,13 @@
 var JiraData = require('../lib/JiraData');
 
-exports.index = function(req, res) {
-    JiraData.getTasks('Alliance',
-        'Sprint 77',
-        function(data) {
-            res.json(JSON.parse(data));
-        });
-};
+// exports.index = function(req, res) {
+//     // JiraData.getTasks('Alliance',
+//     //     'Sprint 77',
+//     //     function(data) {
+//     //         res.json(JSON.parse(data));
+//     //     });
+//     res.sendFile(__dirname + '../templates/index.html');
+// };
 
 exports.tasksTeam = function(req, res) {
     JiraData.getTasks(req.params.team,

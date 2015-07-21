@@ -9,7 +9,10 @@ var app = express(),
 
 app.use(logger('dev'));
 
-app.get('/', routes.index);
+//app.get('/', routes.index);
+app.get('/',   function(req, res) {
+    res.sendFile(__dirname + '/templates/index.html');
+});
 app.get('/tasks/:team/:sprint', routes.tasksTeam);
 app.get('/tasks/:sprint', routes.tasksSprint);
 app.get('/teams', routes.teams);
