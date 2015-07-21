@@ -42,7 +42,11 @@ exports.sprints = function(req, res) {
 
 exports.chartData = function(req, res){
     var chartResult = {
-        data: ['Tasks Remaining', 400, 350, 300, 250, 150, 50, 0]
+        data: {
+            columns: [
+            ['Tasks Remaining', 40, 32, 30, 23, 18, 12, 8, 8, 6, 4, 3, 2, 1, 0],
+            ['Bugs', 0, 0, 1, 0, 2, 0, 0, 1, 0, 2, 3, 2, 1, 0]
+        ]}
     };
 
     res.json(chartResult);

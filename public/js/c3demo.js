@@ -5,10 +5,6 @@
 $.getJSON('/chartData', function(resultData){
 	c3.generate({
 		bindto: '#chart',
-	    data: {
-	        columns: [
-	            resultData.data
-	        ]
-	    }
+	    data: resultData.data
 	});
 });
