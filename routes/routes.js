@@ -39,3 +39,11 @@ exports.sprints = function(req, res) {
             res.json(data);
         });
 };
+
+exports.chartData = function(req, res){
+    var chartResult = {
+        data: ['Tasks Remaining', 400, 350, 300, 250, 150, 50, 0]
+    };
+
+    res.json(chartResult);
+}
