@@ -1,10 +1,13 @@
-/// <reference path="../../framework/d3js-3.4.11/d3.js" />
-/// <reference path="../../framework/c3/c3.js" />
+(function($) {
 
+  // jQuery.document.ready() shortcut
+  $(function() {
+    $.getJSON('/chartData', function(resultData) {
+      c3.generate({
+        bindto: '#chart',
+        data: resultData.data
+      });
+    });
+  });
 
-$.getJSON('/chartData', function(resultData){
-	c3.generate({
-		bindto: '#chart',
-	    data: resultData.data
-	});
-});
+})(jQuery);
