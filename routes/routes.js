@@ -39,3 +39,15 @@ exports.sprints = function(req, res) {
             res.json(data);
         });
 };
+
+exports.chartData = function(req, res){
+    var chartResult = {
+        data: {
+            columns: [
+                ['Tasks Remaining', 40, 32, 30, 23, 18, 12, 8, 8, 6, 4, 3, 2, 1, 0],
+                ['Bugs', 0, 0, 1, 0, 2, 0, 0, 1, 0, 2, 3, 2, 1, 0]
+        ]}
+    };
+
+    res.json(chartResult);
+}
