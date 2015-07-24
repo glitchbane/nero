@@ -43,12 +43,15 @@ exports.sprints = function(req, res) {
 exports.chartData = function(req, res){
     JiraData.getChartResult(
         function(data) {
+            var tasksRemaining = ['Tasks Remaining'];
+            tasksRemaining = tasksRemaining.concat(data);
 
             var chartResult = {
                 data: {
                     columns: [
-                    data,
-                    ['Bugs', 0, 0, 1, 0, 2, 0, 0, 1, 0, 2, 3, 2, 1, 0]
+                    tasksRemaining
+                    // ,
+                    // ['Bugs', 0, 0, 1, 0, 2, 0, 0, 1, 0, 2, 3, 2, 1, 0]
                     ]}
                 };
             res.json(chartResult);
