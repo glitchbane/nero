@@ -41,13 +41,19 @@ exports.sprints = function(req, res) {
 };
 
 exports.chartData = function(req, res){
-    var chartResult = {
-        data: {
-            columns: [
-                ['Tasks Remaining', 40, 32, 30, 23, 18, 12, 8, 8, 6, 4, 3, 2, 1, 0],
-                ['Bugs', 0, 0, 1, 0, 2, 0, 0, 1, 0, 2, 3, 2, 1, 0]
-        ]}
-    };
+    JiraData.getChartResult(
+        function(data) {
+            var tasksRemaining = ['Tasks Remaining'];
+            tasksRemaining = tasksRemaining.concat(data);
 
-    res.json(chartResult);
-}
+            var chartResult = {
+                data: {
+                    columns: [
+                    tasksRemaining
+                    // ,
+                    // ['Bugs', 0, 0, 1, 0, 2, 0, 0, 1, 0, 2, 3, 2, 1, 0]
+                    ]}
+                };
+            res.json(chartResult);
+        });
+};
