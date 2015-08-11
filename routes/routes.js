@@ -1,4 +1,5 @@
-var JiraData = require('../lib/JiraData');
+var JiraData = require('../lib/JiraData'),
+    ChartData = require('../lib/ChartData');
 
 exports.index = function(req, res) {
     res.sendFile(process.cwd() + '/templates/index.html');
@@ -41,19 +42,5 @@ exports.sprints = function(req, res) {
 };
 
 exports.chartData = function(req, res){
-    JiraData.getChartResult(
-        function(data) {
-            var tasksRemaining = ['Tasks Remaining'];
-            tasksRemaining = tasksRemaining.concat(data);
-
-            var chartResult = {
-                data: {
-                    columns: [
-                    tasksRemaining
-                    // ,
-                    // ['Bugs', 0, 0, 1, 0, 2, 0, 0, 1, 0, 2, 3, 2, 1, 0]
-                    ]}
-                };
-            res.json(chartResult);
-        });
+    res.json(ChartData.getChartData);
 };
