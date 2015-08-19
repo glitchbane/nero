@@ -42,5 +42,5 @@ exports.sprints = function(req, res) {
 };
 
 exports.chartData = function(req, res){
-    res.json(ChartData.getChartData);
+    res.json(ChartData.getChartData("DISPEER", null));
 };
