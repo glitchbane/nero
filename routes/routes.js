@@ -1,5 +1,5 @@
-var JiraData = require('../lib/JiraData'),
-    ChartData = require('../lib/ChartData');
+var JiraData = require('../lib/data/realTime/jiraDataProxy'),
+    ChartData = require('../lib/data/ChartData');
 
 exports.index = function(req, res) {
     res.sendFile(process.cwd() + '/templates/index.html');
@@ -42,5 +42,5 @@ exports.sprints = function(req, res) {
 };
 
 exports.chartData = function(req, res){
-    res.json(ChartData.getChartData("DISPEER", null));
+    res.json(ChartData.getChartData("DISPEER", 63));
 };
