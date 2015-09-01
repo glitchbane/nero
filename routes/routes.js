@@ -1,8 +1,12 @@
 var JiraData = require('../lib/data/realTime/jiraDataProxy'),
-    ChartData = require('../lib/data/ChartData');
+    ChartData = require('../lib/data/ChartData'),
+    DataProvider = require('../lib/data/DataProvider');
 
 exports.index = function(req, res) {
-    res.sendFile(process.cwd() + '/templates/index.html');
+    res.render('index', {
+        teams : DataProvider.getTeamList(),
+        sprints : DataProvider.getSprintList()
+    });
 };
 
 exports.tasksTeam = function(req, res) {
@@ -42,5 +46,5 @@ exports.sprints = function(req, res) {
 };
 
 exports.chartData = function(req, res){
-    res.json(ChartData.getChartData("DISPEER", 63));
+    res.json(ChartData.getChartData(req.params.team, req.params.sprint));
 };

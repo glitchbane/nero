@@ -14,6 +14,7 @@
   "author": "GCO",
   "license": "ISC",
   "dependencies": {
+    "consolidate": "^0.13.1",
     "express": "^4.13.0",
     "handlebars": "^3.0.3",
     "moment": "^2.10.3",
