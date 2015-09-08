@@ -24,6 +24,7 @@ app.get('/teams', routes.teams);
 app.get('/teams/:sprint', routes.teamsSprint);
 app.get('/sprints', routes.sprints);
 app.get('/chartData/:team/:sprint', routes.chartData);
+app.get('/chartData', routes.chartData)
 
 app.listen(portNumber, function() {
     console.log('Listening on http://localhost:' + portNumber);
