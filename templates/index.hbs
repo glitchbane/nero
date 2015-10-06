@@ -62,6 +62,25 @@
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title">Nero</span>
           <div class="mdl-layout-spacer"></div>
+          <!--{{!--{{> sprintsDropdown}}--}}-->
+          <!--{{!--{{> teamsDropdown}}--}}-->
+          <div id="teamsDropdown">
+                <select>
+                {{#each teams}}
+                        <option value={{this}}>{{this}}</option>
+                {{/each}}    
+                </select>
+            </div>
+          <div id="sprintsDropdown">
+                <select>
+                    {{#each sprints}}
+                            <option value={{this}}>Sprint {{this}}</option>
+                    {{/each}}    
+                </select>
+            </div>
+          <button id="queryBtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">
+        Burn it!
+        </button>
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
             <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
               <i class="material-icons">search</i>
@@ -99,14 +118,6 @@
         </header>
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons">home</i>Home</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons">inbox</i>Inbox</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons">delete</i>Trash</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons">report</i>Spam</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons">forum</i>Forums</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons">flag</i>Updates</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons">local_offer</i>Promos</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons">shopping_cart</i>Purchases</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons">people</i>Social</a>
           <div class="mdl-layout-spacer"></div>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons">help_outline</i></a>
         </nav>
@@ -123,5 +134,6 @@
     <script src="bower_components/d3/d3.min.js" type="text/javascript"></script>
     <script src="bower_components/c3/c3.min.js" type="text/javascript"></script>
     <script src="js/c3BurndownChart.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
   </body>
 </html>
