@@ -44,6 +44,7 @@
     <link rel="stylesheet" href="/bower_components/material-design-lite/material.min.css">
     <link rel="stylesheet" href="/bower_components/c3/c3.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <style>
     #view-source {
       position: fixed;
@@ -60,27 +61,32 @@
     <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
       <header class="demo-header mdl-layout__header mdl-color--white mdl-color--grey-100 mdl-color-text--grey-600">
         <div class="mdl-layout__header-row">
+          <img class="title-icon" src="/images/flame.fw.png"/>
           <span class="mdl-layout-title">Nero</span>
           <div class="mdl-layout-spacer"></div>
           <!--{{!--{{> sprintsDropdown}}--}}-->
           <!--{{!--{{> teamsDropdown}}--}}-->
           <div id="teamsDropdown">
-                <select>
+            Team:
+                <select class=topBarDropDown>
                 {{#each teams}}
                         <option value={{this}}>{{this}}</option>
                 {{/each}}    
                 </select>
             </div>
+            &nbsp&nbsp Sprint:
           <div id="sprintsDropdown">
-                <select>
+                <select class=topBarDropDown>
                     {{#each sprints}}
                             <option value={{this}}>Sprint {{this}}</option>
                     {{/each}}    
                 </select>
             </div>
-          <button id="queryBtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">
+
+          <button id="queryBtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored">
         Burn it!
         </button>
+                              <div class="mdl-layout-spacer"></div>
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
             <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
               <i class="material-icons">search</i>
