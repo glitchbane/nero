@@ -46,5 +46,8 @@ exports.sprints = function(req, res) {
 };
 
 exports.chartData = function(req, res){
-    res.json(ChartData.getChartData(req.params.team, req.params.sprint));
+    ChartData.getChartData(req.params.team, req.params.sprint, function(err, data) {
+        if (err) res.json(err);
+        else res.json(data);
+    });
 };
