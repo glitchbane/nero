@@ -15,6 +15,7 @@ npm install -g bower
 ```
 bower install
 ```
+5.  Install MongoDb to run locally (you will need to alter the connection string if you run locally)
 
 *Note, if you are inside the firewall, you may have issues connecting to Bower packages using git. If you encounter an issue, run this command:*
 
@@ -27,3 +28,7 @@ git config --global url."https://".insteadOf git://
 ```
 node server.js
 ```
+
+###MongoDb
+
+See schema document located in the docs folder.

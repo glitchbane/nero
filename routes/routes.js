@@ -3,9 +3,15 @@ var JiraData = require('../lib/data/realTime/jiraDataProxy'),
     DataProvider = require('../lib/data/DataProvider');
 
 exports.index = function(req, res) {
-    res.render('index', {
-        teams : DataProvider.getTeamList(),
-        sprints : DataProvider.getSprintList()
+    DataProvider.getTeamList(function(err, data1) {
+        console.log(data1);
+        DataProvider.getSprintList(function(err, data2) {
+            console.log(data2);
+            res.render('index', {
+                teams : data1,
+                sprints : data2
+            });   
+        });
     });
 };
 
