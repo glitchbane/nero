@@ -1,0 +1,108 @@
+[
+{
+id: 7421,
+self: "https://jira/jira/rest/agile/1.0/sprint/7421",
+state: "closed",
+name: "Zeta Sprint 83",
+startDate: "2015-10-01T15:00:39.918-07:00",
+endDate: "2015-10-14T18:00:00.000-07:00",
+completeDate: "2015-10-15T14:23:54.959-07:00",
+originBoardId: 2541
+},
+{
+id: 7422,
+self: "https://jira/jira/rest/agile/1.0/sprint/7422",
+state: "closed",
+name: "Zeta Sprint 84",
+startDate: "2015-10-15T15:00:11.299-07:00",
+endDate: "2015-10-28T18:00:00.000-07:00",
+completeDate: "2015-10-30T10:28:52.409-07:00",
+originBoardId: 2541
+},
+{
+id: 7685,
+self: "https://jira/jira/rest/agile/1.0/sprint/7685",
+state: "closed",
+name: "Infra Sprint 85",
+startDate: "2015-10-29T14:19:26.550-07:00",
+endDate: "2015-11-12T14:19:00.000-08:00",
+completeDate: "2015-11-12T13:49:10.994-08:00",
+originBoardId: 881
+},
+{
+id: 7780,
+self: "https://jira/jira/rest/agile/1.0/sprint/7780",
+state: "closed",
+name: "Zeta Sprint 85",
+startDate: "2015-10-30T10:00:55.660-07:00",
+endDate: "2015-11-11T18:00:00.000-08:00",
+completeDate: "2015-11-30T13:15:29.085-08:00",
+originBoardId: 2541
+},
+{
+id: 7925,
+self: "https://jira/jira/rest/agile/1.0/sprint/7925",
+state: "closed",
+name: "Alliance Sprint 87",
+startDate: "2015-11-30T11:24:48.572-08:00",
+endDate: "2015-12-09T23:24:00.000-08:00",
+completeDate: "2015-12-10T13:58:25.192-08:00",
+originBoardId: 1443
+},
+{
+id: 7967,
+self: "https://jira/jira/rest/agile/1.0/sprint/7967",
+state: "closed",
+name: "Zeta Sprint 86",
+startDate: "2015-11-12T13:15:17.347-08:00",
+endDate: "2015-11-25T21:15:00.000-08:00",
+completeDate: "2015-11-30T13:41:08.313-08:00",
+originBoardId: 2541
+},
+{
+id: 8165,
+self: "https://jira/jira/rest/agile/1.0/sprint/8165",
+state: "closed",
+name: "Zeta Sprint 87",
+startDate: "2015-11-30T14:24:40.503-08:00",
+endDate: "2015-12-09T18:24:00.000-08:00",
+completeDate: "2016-01-13T12:06:22.152-08:00",
+originBoardId: 2541
+},
+{
+id: 8727,
+self: "https://jira/jira/rest/agile/1.0/sprint/8727",
+state: "closed",
+name: "Zeta Sprint 88",
+startDate: "2015-12-10T12:07:01.259-08:00",
+endDate: "2015-12-23T16:07:00.000-08:00",
+completeDate: "2016-01-13T12:08:07.364-08:00",
+originBoardId: 2541
+},
+{
+id: 8728,
+self: "https://jira/jira/rest/agile/1.0/sprint/8728",
+state: "closed",
+name: "Zeta Sprint 89",
+startDate: "2015-12-28T12:08:01.330-08:00",
+endDate: "2016-01-06T16:08:00.000-08:00",
+completeDate: "2016-01-13T12:09:09.109-08:00",
+originBoardId: 2541
+},
+{
+id: 8729,
+self: "https://jira/jira/rest/agile/1.0/sprint/8729",
+state: "active",
+name: "Zeta Sprint 90",
+startDate: "2016-01-07T12:11:55.204-08:00",
+endDate: "2016-01-20T18:11:00.000-08:00",
+originBoardId: 2541
+},
+{
+id: 8730,
+self: "https://jira/jira/rest/agile/1.0/sprint/8730",
+state: "future",
+name: "Zeta Sprint 91",
+originBoardId: 2541
+}
+]

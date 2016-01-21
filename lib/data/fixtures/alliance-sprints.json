@@ -1,0 +1,369 @@
+{
+sprints: [
+{
+id: 2619,
+sequence: 2619,
+name: "Sprint 52",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 2623,
+sequence: 2623,
+name: "Sprint 53",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 2624,
+sequence: 2624,
+name: "Sprint 54",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 2625,
+sequence: 2625,
+name: "Sprint 55 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 2921,
+sequence: 2921,
+name: "Sprint 54",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 2924,
+sequence: 2924,
+name: "Sprint 56 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 3019,
+sequence: 3019,
+name: "Sprint 55",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 3225,
+sequence: 3225,
+name: "Sprint 57 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 3244,
+sequence: 3244,
+name: "Sprint 58",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 3354,
+sequence: 3354,
+name: "Sprint 58 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 3356,
+sequence: 3356,
+name: "Sprint 59 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 3628,
+sequence: 3628,
+name: "Sprint 60 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 3640,
+sequence: 3640,
+name: "Sprint 61 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 3661,
+sequence: 3661,
+name: "Sprint 62 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 3721,
+sequence: 3721,
+name: "Sprint 67 - Surly",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 3988,
+sequence: 3988,
+name: "Sprint 63 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 4081,
+sequence: 4081,
+name: "Sprint 64 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 4246,
+sequence: 4246,
+name: "Sprint 65 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 4381,
+sequence: 4362,
+name: "Orca Sprint 68",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 4407,
+sequence: 4407,
+name: "Sprint 66 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 4645,
+sequence: 4645,
+name: "Sprint 67 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 4691,
+sequence: 4691,
+name: "Sprint 68 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 4694,
+sequence: 4694,
+name: "Sprint 69 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 4824,
+sequence: 4824,
+name: "Zamboni Sprint 68",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 5198,
+sequence: 5198,
+name: "Sprint 70 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 5320,
+sequence: 5320,
+name: "Sprint 71 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 5546,
+sequence: 5546,
+name: "Sprint 72 - Alliance",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 5547,
+sequence: 5547,
+name: "Venetian - Sprint 72",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 5683,
+sequence: 5683,
+name: "Alliance/Infra - Sprint 73",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 5692,
+sequence: 5692,
+name: "Alliance - Sprint 74",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 5866,
+sequence: 5866,
+name: "Zamboni - Sprint 74",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 5937,
+sequence: 5937,
+name: "Alliance - Sprint 75",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 5985,
+sequence: 5986,
+name: "Orca Sprint 76",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6156,
+sequence: 6156,
+name: "Venetian - Sprint 78",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6180,
+sequence: 6180,
+name: "Alliance - Sprint 76",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6275,
+sequence: 6275,
+name: "Alliance - Sprint 77",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6276,
+sequence: 6276,
+name: "Alliance - Sprint 78",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6585,
+sequence: 6585,
+name: "Alliance - Sprint 79",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6729,
+sequence: 6729,
+name: "Orca Sprint 79",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6933,
+sequence: 6933,
+name: "Alliance Sprint 80",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7031,
+sequence: 7031,
+name: "Alliance Sprint 81",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7093,
+sequence: 7093,
+name: "Alliance Sprint 82",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7233,
+sequence: 7233,
+name: "Alliance Sprint 83",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7234,
+sequence: 7234,
+name: "Alliance Sprint 84",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7235,
+sequence: 7235,
+name: "Alliance Sprint 85",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7236,
+sequence: 7236,
+name: "Alliance Sprint 86",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7925,
+sequence: 7925,
+name: "Alliance Sprint 87",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7971,
+sequence: 7971,
+name: "Zamboni 86",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 8094,
+sequence: 8094,
+name: "Alliance Sprint 88",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 8095,
+sequence: 8095,
+name: "Alliance Sprint 89",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 8096,
+sequence: 8096,
+name: "Alliance Sprint 90",
+state: "ACTIVE",
+linkedPagesCount: 0
+},
+{
+id: 8557,
+sequence: 8557,
+name: "Alliance Sprint 91",
+state: "FUTURE",
+linkedPagesCount: 0
+}
+],
+rapidViewId: 1443
+}

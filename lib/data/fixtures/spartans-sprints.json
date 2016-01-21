@@ -1,0 +1,292 @@
+{
+sprints: [
+{
+id: 3338,
+sequence: 3338,
+name: "Orca - Sprint 59",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 3536,
+sequence: 3536,
+name: "Orca Sprint 60",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 3616,
+sequence: 3616,
+name: "Orca Sprint 61",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 3678,
+sequence: 3678,
+name: "Orca Sprint 64",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 3680,
+sequence: 3680,
+name: "Orca Sprint 65",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 3681,
+sequence: 3681,
+name: "Orca Sprint 66",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 4015,
+sequence: 4015,
+name: "Venetian - Sprint 64",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 4017,
+sequence: 4017,
+name: "Venetian - Sprint 65",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 4018,
+sequence: 4018,
+name: "Venetian - Sprint 66",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 4382,
+sequence: 4381,
+name: "Orca Sprint 69",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 4400,
+sequence: 4400,
+name: "Orca Sprint 70",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 4546,
+sequence: 4546,
+name: "Infra Sprint 67",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 5371,
+sequence: 5371,
+name: "Orca Sprint 71",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 5382,
+sequence: 5382,
+name: "Venetian - Sprint 71",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 5452,
+sequence: 5452,
+name: "Orca Sprint 72",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 5525,
+sequence: 5525,
+name: "Orca Sprint 73",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6007,
+sequence: 6007,
+name: "Spartans Sprint 75",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6008,
+sequence: 6008,
+name: "Spartans Sprint 76",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6148,
+sequence: 6148,
+name: "Venetian - Sprint 77",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6210,
+sequence: 6210,
+name: "Spartan Sprint 77",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6252,
+sequence: 6252,
+name: "Spartan Sprint 78",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6278,
+sequence: 6278,
+name: "Infra Sprint 79",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6600,
+sequence: 6401,
+name: "Spartans Sprint 79",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6568,
+sequence: 6568,
+name: "Zamboni - Sprint 78",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6601,
+sequence: 6600,
+name: "Spartans Sprint 80",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6602,
+sequence: 6601,
+name: "Spartans Sprint 81",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7226,
+sequence: 6602,
+name: "Spartans - Sprint 82",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7227,
+sequence: 7226,
+name: "Spartans - Sprint 83",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7228,
+sequence: 7227,
+name: "Spartans - Sprint 84",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7807,
+sequence: 7228,
+name: "Spartans - Sprint 85",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7808,
+sequence: 7807,
+name: "Spartans - Sprint 86",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7980,
+sequence: 7808,
+name: "Spartans - Sprint 87",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7981,
+sequence: 7980,
+name: "Spartans - Sprint 88",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7982,
+sequence: 7981,
+name: "Spartans - Sprint 89",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7983,
+sequence: 7982,
+name: "Spartans - Sprint 90",
+state: "ACTIVE",
+linkedPagesCount: 0
+},
+{
+id: 8599,
+sequence: 7983,
+name: "Spartans - Sprint 91",
+state: "FUTURE",
+linkedPagesCount: 0
+},
+{
+id: 8600,
+sequence: 8599,
+name: "Spartans - Sprint 92",
+state: "FUTURE",
+linkedPagesCount: 0
+},
+{
+id: 8601,
+sequence: 8600,
+name: "Spartans - Sprint 93",
+state: "FUTURE",
+linkedPagesCount: 0
+},
+{
+id: 8602,
+sequence: 8601,
+name: "Spartans - Sprint 94",
+state: "FUTURE",
+linkedPagesCount: 0
+},
+{
+id: 8603,
+sequence: 8602,
+name: "Spartans - Sprint 95",
+state: "FUTURE",
+linkedPagesCount: 0
+},
+{
+id: 6401,
+sequence: 8603,
+name: "review",
+state: "FUTURE",
+linkedPagesCount: 0
+}
+],
+rapidViewId: 2179
+}

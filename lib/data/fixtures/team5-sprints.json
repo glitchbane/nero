@@ -1,0 +1,117 @@
+{
+sprints: [
+{
+id: 4382,
+sequence: 4381,
+name: "Orca Sprint 69",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6944,
+sequence: 6944,
+name: "Team 5- Sprint 80",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6947,
+sequence: 6947,
+name: "Team 5- Sprint 81",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7250,
+sequence: 7250,
+name: "Team 5- Sprint 82",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7415,
+sequence: 7415,
+name: "Team 5- Sprint 83",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7577,
+sequence: 7577,
+name: "Team 5- Sprint 84",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7784,
+sequence: 7784,
+name: "Team 5- Sprint 85",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7980,
+sequence: 7808,
+name: "Spartans - Sprint 87",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7948,
+sequence: 7948,
+name: "Team 5- Sprint 86",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7981,
+sequence: 7980,
+name: "Spartans - Sprint 88",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 7982,
+sequence: 7981,
+name: "Spartans - Sprint 89",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 8183,
+sequence: 8183,
+name: "Team 5- Sprint 87",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 8310,
+sequence: 8310,
+name: "Team 5- Sprint 88",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 8506,
+sequence: 8506,
+name: "Team 5- Sprint 89",
+state: "CLOSED",
+linkedPagesCount: 0
+},
+{
+id: 6131,
+sequence: 6131,
+name: "Team 5 - Sprint 90",
+state: "ACTIVE",
+linkedPagesCount: 0
+},
+{
+id: 7983,
+sequence: 7982,
+name: "Spartans - Sprint 90",
+state: "ACTIVE",
+linkedPagesCount: 0
+}
+],
+rapidViewId: 2415
+}

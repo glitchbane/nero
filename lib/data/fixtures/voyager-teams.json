@@ -1,0 +1,45 @@
+[{
+    "name": "Alliance",
+    "boardId": 1443
+},
+{
+    "name": "Delta Force",
+    "boardId": 881
+},    
+{
+    "name": "Helios",
+    "boardId": 624
+},
+{
+    "name": "Hex",
+    "boardId": 2823
+},
+{
+    "name": "Juan",
+    "boardId": 2844
+},
+{
+    "name": "Orca",
+    "boardId": 1427
+},
+{
+    "name": "Spartans",
+    "boardId": 2179
+},
+{
+    "name": "Team 5",
+    "boardId": 2415
+},
+{
+    "name": "Venetian",
+    "boardId": 1428
+},
+{
+    "name": "Zamboni",
+    "boardId": 1437
+},
+{
+    "name": "Zeta",
+    "boardId": 2541
+}
+]
