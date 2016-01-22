@@ -15,13 +15,13 @@ $('#queryBtn').click(function() {
 // user selects team
 // sprint list is populated with sprints that are valid for that team
 $('#teamsDropdown').on('change', function() {
+    var $ddlSprint = $('#sprintSelect');
+    $ddlSprint.empty();
     var selectedTeam = $('#teamsDropdown').find('select').val();
     $.getJSON('/team/' + selectedTeam + '/sprints', function(sprintsData) {
-        var ddlMarkup = '<select>';
+        //var ddlMarkup = '<select class=topBarDropDown>';
         $.each(sprintsData, function(index, sprint) {
-            ddlMarkup += '<option>' + sprint.name + '</option>';
+            $ddlSprint.append($("<option></option>").attr("value", sprint.id).text(sprint.name));
         })
-       ddlMarkup += '</select>';
-       $('#sprintsDropdown').html(ddlMarkup);
     })
 });

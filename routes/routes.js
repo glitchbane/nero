@@ -3,13 +3,13 @@ var JiraData = require('../lib/data/realTime/jiraDataProxy'),
     DataProvider = require('../lib/data/DataProvider');
 
 exports.index = function(req, res) {
-    DataProvider.getTeamList(function(err, data1) {
-        console.log(data1);
-        DataProvider.getSprintList(function(err, data2) {
-            console.log(data2);
+    DataProvider.getTeamList(function(err, teamList) {
+        
+        DataProvider.getSprintList(teamList[0].boardId, function(err, sprintList) {
+            
             res.render('index', {
-                teams : data1,
-                sprints : data2
+                teams : teamList,
+                sprints : sprintList
             });   
         });
     });
@@ -49,6 +49,13 @@ exports.sprints = function(req, res) {
         function(data) {
             res.json(data);
         });
+};
+
+exports.sprintsForTeam = function(req, res){
+    DataProvider.getSprintList(req.params.teamId,
+    function(err, data) {
+        res.json(data);
+    });
 };
 
 exports.chartData = function(req, res){

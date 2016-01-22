@@ -25,9 +25,8 @@ app.get('/tasks/:team/:sprint', routes.tasksTeam);
 app.get('/tasks/:sprint', routes.tasksSprint);
 app.get('/teams', routes.teams);
 app.get('/teams/:sprint', routes.teamsSprint);
-//app.get('/teams/:teamId/sprints', routes.sprintsForTeam);
+app.get('/team/:teamId/sprints', routes.sprintsForTeam);
 app.get('/sprints', routes.sprints);
-app.get('/teams/:teamId/sprints', routes.sprintsForTeam);
 app.get('/chartData/:team/:sprint', routes.chartData);
 app.get('/chartData', routes.chartData);
 

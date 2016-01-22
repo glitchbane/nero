@@ -76,9 +76,9 @@
             </div>
             &nbsp&nbsp Sprint:
           <div id="sprintsDropdown">
-                <select class=topBarDropDown>
+                <select id="sprintSelect" class=topBarDropDown>
                     {{#each sprints}}
-                            <option value={{this}}>Sprint {{this}}</option>
+                            <option value={{this.id}}>{{this.name}}</option>
                     {{/each}}    
                 </select>
             </div>
