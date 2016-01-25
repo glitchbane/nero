@@ -60,6 +60,8 @@ exports.sprintsForTeam = function(req, res){
 
 exports.chartData = function(req, res){
     ChartData.getChartData(req.params.team, req.params.sprint, function(err, data) {
+                console.log('getChartDataReqParams: ' + req.params);
+        
         if (err) res.json(err);
         else res.json(data);
     });
